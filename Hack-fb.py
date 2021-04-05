@@ -32,6 +32,6 @@ n = 0
 while data < 99999999 :
 	data = data+18
 	n = n+1
-	print ("\033[0;101m",m ,n , "›››" , data)
+	print ("\033[0;31m",m ,n , "›››" , data)
 	print ("\033[0;101")
 	time.sleep (3)
